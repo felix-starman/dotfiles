@@ -1,0 +1,10 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "zsh/custom/themes/powerlevel10k"]
+	path = zsh/custom/themes/powerlevel10k
+	url = git@github.com:romkatv/powerlevel10k.git
+[submodule "dotfiles_per_company"]
+	path = dotfiles_per_company
+	url = git@github.com:felix-starman/dotfiles_per_company.git

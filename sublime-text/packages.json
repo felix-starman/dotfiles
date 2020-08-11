@@ -1,0 +1,17 @@
+{ "packages": [
+    "Babel",
+    "BracketHighlighter",
+    "DashDoc",
+    "Elixir",
+    "ElixirSublime",
+    "GitGutter",
+    "Markdown Preview",
+    "MarkdownEditing",
+    "RSpec",
+    "sublime-github",
+    "SublimeLinter",
+    "SublimeLinter-contrib-elixirc",
+    "SublimeLinter-contrib-eslint",
+    "SublimeLinter-rubocop"
+  ]
+}

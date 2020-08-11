@@ -1,0 +1,43 @@
+- defaults:
+    link:
+      relink: true
+
+# - clean: ['~']
+
+- link:
+    ~/.asdfrc: asdfrc
+    ~/.curlrc: curlrc
+    ~/.config/:
+      path: config/*
+      glob: true
+      create: true
+    ~/.gitconfig:
+    ~/.gitconfig.platform:
+      if: '[ `uname` = Darwin ]'
+      path: gitconfig.platform.darwin
+    ~/.git-prompt.sh:
+    ~/.iex.exs:
+    ~/.pryrc:
+    ~/.rspec:
+    ~/.tmate.conf:
+    ~/.tmux.conf:
+    ~/.vimrc:
+    ~/.zprofile:
+    ~/.zlogin:
+    ~/.zshrc:
+    ~/.p10k.zsh:
+    ~/Library/Application Support/iTerm2/DynamicProfiles/dynamic_profile.json: iterm2/dynamic_profile.json
+    ~/Library/Application Support/Code/User/:
+      path: vscode/*
+      glob: true
+    ~/.dotfiles/zsh/custom/plugins/onelogin_aws:
+      path: dotfiles_per_company/onelogin_aws/
+    # ~/.tmux.conf: tmux.conf
+    # ~/.vim: vim
+
+# - create:
+    # - ~/.vim/undo-history
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [cat vscode/extension_list.txt | xargs -n 1 code --install-extension, Installing vscode extensions]

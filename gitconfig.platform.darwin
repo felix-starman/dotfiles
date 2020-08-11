@@ -1,0 +1,6 @@
+[credential]
+  helper = osxkeychain
+[push]
+  default = upstream
+[core]
+  pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
