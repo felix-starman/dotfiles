@@ -32,5 +32,8 @@
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>?",
     "workbench.startupEditor": "newUntitledFile",
     "elixirLS.dialyzerFormat": "dialyxir_long",
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": false,
+    "emmet.includeLanguages": {
+        "html-eex": "html"
+    }
 }

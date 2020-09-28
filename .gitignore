@@ -1,3 +1,4 @@
 *.private
 tmp/
 Brewfile.lock.json
+zsh/custom/plugins/onelogin_aws

@@ -4,6 +4,9 @@
 
 # - clean: ['~']
 
+- create:
+  - ~/Library/KeyBindings/
+
 - link:
     ~/.asdfrc: asdfrc
     ~/.curlrc: curlrc
@@ -26,8 +29,14 @@
     ~/.zlogin:
     ~/.zshrc:
     ~/.p10k.zsh:
-    ~/Library/Application Support/iTerm2/DynamicProfiles/dynamic_profile.json: iterm2/dynamic_profile.json
+    ~/Library/KeyBindings/DefaultKeyBinding.dict:
+      if: '[ `uname` = Darwin ]'
+      path: osx/custom_keybinding.dict
+    ~/Library/Application Support/iTerm2/DynamicProfiles/dynamic_profile.json:
+      if: '[ `uname` = Darwin ]'
+      path: iterm2/dynamic_profile.json
     ~/Library/Application Support/Code/User/:
+      if: '[ `uname` = Darwin ]'
       path: vscode/*
       glob: true
     ~/.dotfiles/zsh/custom/plugins/onelogin_aws:
@@ -35,9 +44,6 @@
     # ~/.tmux.conf: tmux.conf
     # ~/.vim: vim
 
-# - create:
-    # - ~/.vim/undo-history
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
-  - [cat vscode/extension_list.txt | xargs -n 1 code --install-extension, Installing vscode extensions]
+# - shell:
+#   - [git submodule update --init --recursive, Installing submodules]
+#   - [cat vscode/extension_list.txt | xargs -n 1 code --install-extension, Installing vscode extensions]
