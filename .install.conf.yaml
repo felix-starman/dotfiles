@@ -41,6 +41,8 @@
       glob: true
     ~/.dotfiles/zsh/custom/plugins/onelogin_aws:
       path: dotfiles_per_company/onelogin_aws/
+    ~/.dotfiles/zsh/custom/plugins/prescribe_fit:
+      path: dotfiles_per_company/prescribe_fit/
     # ~/.tmux.conf: tmux.conf
     # ~/.vim: vim
 

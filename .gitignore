@@ -2,3 +2,4 @@
 tmp/
 Brewfile.lock.json
 zsh/custom/plugins/onelogin_aws
+zsh/custom/plugins/prescribe_fit

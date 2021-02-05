@@ -91,6 +91,7 @@ plugins=(
   zsh_reload
   iterm2_shell_integration
   onelogin_aws
+  prescribe_fit
   unorganized_aliases
 )
 
