@@ -5,6 +5,7 @@ bierner.markdown-preview-github-styles
 DotJoshJohnson.xml
 eamodio.gitlens
 file-icons.file-icons
+haaaad.ansible
 iampeterbanjo.elixirlinter
 ivory-lab.jenkinsfile-support
 JakeBecker.elixir-ls
@@ -18,4 +19,5 @@ pgourlain.erlang
 sdras.night-owl
 swashata.beautiful-ui
 tomoki1207.pdf
+tomphilbin.gruvbox-themes
 yzhang.markdown-all-in-one

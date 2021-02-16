@@ -414,6 +414,33 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>docsets</key>
+			<array>
+				<string>~/Library/Application Support/Dash/Hex DocSets/phoenix/phoenix.docset</string>
+				<string>~/Library/Application Support/Dash/Hex DocSets/phoenixhtml/phoenix_html.docset</string>
+				<string>~/Library/Application Support/Dash/Hex DocSets/phoenixliveview/phoenix_live_view.docset</string>
+				<string>~/Library/Application Support/Dash/Hex DocSets/plug/plug.docset</string>
+				<string>~/Library/Application Support/Dash/Hex DocSets/guardian/guardian.docset</string>
+			</array>
+			<key>name</key>
+			<string>web</string>
+			<key>searchSnippets</key>
+			<false/>
+			<key>triggers</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>"web:" is typed in the main search field</string>
+					<key>image</key>
+					<string>searchKeywordIcon</string>
+					<key>isKeywordTrigger</key>
+					<true/>
+					<key>keyword</key>
+					<string>web:</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>shouldRestoreTabs</key>
 	<true/>
