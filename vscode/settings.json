@@ -34,6 +34,7 @@
     "elixirLS.dialyzerFormat": "dialyxir_long",
     "editor.minimap.enabled": false,
     "emmet.includeLanguages": {
-        "html-eex": "html"
+        "html-eex": "html",
+        "surface": "html"
     }
 }
