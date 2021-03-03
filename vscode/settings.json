@@ -4,7 +4,6 @@
     "files.trimFinalNewlines": true,
     "editor.tabSize": 2,
     "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
-    "window.zoomLevel": 1,
     "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderMedium} [${rootName}]",
     "files.watcherExclude": {
         "**/_build/**": true,
@@ -34,7 +33,8 @@
     "elixirLS.dialyzerFormat": "dialyxir_long",
     "editor.minimap.enabled": false,
     "emmet.includeLanguages": {
-        "html-eex": "html",
-        "surface": "html"
-    }
+        "html-eex": "html"
+    },
+    "liveshare.authenticationProvider": "GitHub",
+    "window.zoomLevel": 1
 }

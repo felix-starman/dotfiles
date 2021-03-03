@@ -93,7 +93,7 @@
 			<key>ecto</key>
 			<dict>
 				<key>date</key>
-				<date>2021-02-08T14:20:01Z</date>
+				<date>2021-02-23T15:45:29Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -116,6 +116,20 @@
 					<string>hex</string>
 					<key>uniqueIdentifier</key>
 					<string>ecto_sql</string>
+				</dict>
+			</dict>
+			<key>ex_machina</key>
+			<dict>
+				<key>date</key>
+				<date>2021-02-25T15:11:16Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>ex_machina</string>
+					<key>platform</key>
+					<string>hex</string>
+					<key>uniqueIdentifier</key>
+					<string>ex_machina</string>
 				</dict>
 			</dict>
 			<key>guardian</key>
@@ -146,10 +160,24 @@
 					<string>jason</string>
 				</dict>
 			</dict>
+			<key>mox</key>
+			<dict>
+				<key>date</key>
+				<date>2021-02-24T19:42:35Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>mox</string>
+					<key>platform</key>
+					<string>hex</string>
+					<key>uniqueIdentifier</key>
+					<string>mox</string>
+				</dict>
+			</dict>
 			<key>phoenix</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-05T20:40:58Z</date>
+				<date>2021-02-24T15:45:29Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -219,7 +247,7 @@
 			<key>timex</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-06T21:28:12Z</date>
+				<date>2021-02-27T19:16:39Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -301,6 +329,8 @@
 			<string>ecto:</string>
 			<key>~/Library/Application Support/Dash/Hex DocSets/guardian/guardian.docset</key>
 			<string>guardian:</string>
+			<key>~/Library/Application Support/Dash/Hex DocSets/mox/mox.docset</key>
+			<string>mox:</string>
 			<key>~/Library/Application Support/Dash/Hex DocSets/phoenix/phoenix.docset</key>
 			<string>phx:</string>
 			<key>~/Library/Application Support/Dash/Hex DocSets/phoenixecto/phoenix_ecto.docset</key>
@@ -319,6 +349,11 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>http://kapeli.com/feeds/CSS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-02-16T16:45:38Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Elixir.xml</key>
 			<dict>
 				<key>date</key>
@@ -328,6 +363,21 @@
 			<dict>
 				<key>date</key>
 				<date>2021-01-05T20:42:15Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/HTML.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-02-16T15:07:26Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/JavaScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-01T16:17:47Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/MomentJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-01T16:22:00Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MySQL.xml</key>
 			<dict>
@@ -422,6 +472,8 @@
 				<string>~/Library/Application Support/Dash/Hex DocSets/phoenixliveview/phoenix_live_view.docset</string>
 				<string>~/Library/Application Support/Dash/Hex DocSets/plug/plug.docset</string>
 				<string>~/Library/Application Support/Dash/Hex DocSets/guardian/guardian.docset</string>
+				<string>~/Library/Application Support/Dash/DocSets/HTML/HTML.docset</string>
+				<string>~/Library/Application Support/Dash/DocSets/CSS/CSS.docset</string>
 			</array>
 			<key>name</key>
 			<string>web</string>
